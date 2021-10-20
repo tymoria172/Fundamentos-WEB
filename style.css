@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+P {
+    text-align: center;
+}
+
+h1 {
+    text-align:  center;
+}
+span {
+    text-align: center;
+}
+
+h2 {
+
+    background-color: crimson;
+    text-align: center;
+   color: darkgoldenrod;
+}
