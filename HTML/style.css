@@ -17,3 +17,16 @@ h2 {
     text-align: center;
    color: darkgoldenrod;
 }
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img{
+
+    margin: 20px;
+    border: 8px solid green;
+    padding: 4px;
+}
