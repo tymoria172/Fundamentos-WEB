@@ -39,7 +39,10 @@ body{
     flex-direction: row;
     justify-content: space-around;
     border-radius: 10px;
-
+    border: 4px;
+    border-style: double;
+    border-image: linear-gradient( to right, #159957, #155799 )   3;
+    
 }
 
 .BadgesFlex > div{
@@ -98,3 +101,7 @@ body{
 
 /* Estilos para a pagina Contato.html */
 
+.br-50{
+     
+    border-radius: 10px;
+}
