@@ -1,24 +1,100 @@
+
+
 @charset "UTF-8";
+
+
+
+/* Estilos para a pagina Site2.html */
+
 
 body{
 
-    background-color: rgb(61, 61, 57);
-}
-h1{
-    text-align: center;
-    text-shadow: 100ch;
-    color: rgb(235, 235, 235);
+    background-color: rgb(0, 5, 0);
 }
 
-p{
 
-    text-align: center;
-    color: rgb(241, 247, 247);
-    font-size:large;
+.TituloPrincipal{
+
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    font-size: 50px;
+    color: #159957;
+    font-family: 'Varela Round', sans-serif;
 
 }
 
-img{
+.TituloPrincipal > div{
 
-    text-align: center;
+    flex-flow: row;
+
 }
+
+.BadgesFlex{
+
+    margin: 10px;
+    padding: 20px;
+    display: flex;
+    background-color: rgb(0, 5, 0);
+    flex-direction: row;
+    justify-content: space-around;
+    border-radius: 10px;
+
+}
+
+.BadgesFlex > div{
+
+    font-size: 30px;
+    line-height: 5px;
+}
+
+.Speech{
+
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    background: linear-gradient( #159957, #155799);
+    background-color: rgb(11, 110, 79);
+    justify-content: center;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: 'Varela Round', sans-serif;
+    text-indent: 50px;
+    margin: 10px;
+    padding: 20px;
+}
+
+.Speech > div{
+
+
+}
+
+#menu li{
+
+    display: inline;
+    padding: 15px;
+}
+
+#menu li a{
+
+    text-decoration: none;
+    color: #159957;
+    font-size: 20px;
+}
+
+#menu li a:hover{
+
+    color: rgb(11, 110, 79) ;
+
+}
+
+.orientacao
+{
+    display: flex;
+    justify-content:flex-end;
+    height: 300px;
+
+}
+
+/* Estilos para a pagina Contato.html */
+
