@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,24 +8,25 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    
-    
-    
+
+
+
     <h1 class="textCon" style="color: #fdca40;">
         Entre em Contato comigo
     </h1>
     <div class="container">
         <div class="textesquerda">
 
-            <form >
+            <form>
                 <br>
                 <label for="nome">Nome:</label> <br>
-                <input type="text" id = "nome" onkeyup='validaNome()'> 
+                <input type="text" id="nome" onkeyup='validaNome()'>
                 <div id='txtNome'></div>
                 <br>
                 <label for="email">E-mail:</label> <br>
-                <input type="email" id = "email" onkeyup='validaEmail()'> 
+                <input type="email" id="email" onkeyup='validaEmail()'>
                 <div id='txtEmail'></div>
                 <br>
                 <label for="assunto">Assunto:</label> <br>
@@ -36,29 +38,28 @@
             </form>
 
         </div>
-     
-            <div class="ml-50">
 
-                <div class="marg">
-                    <p>Rua das Papoulas 59, Vila Bela</p>
+        <div class="ml-50">
 
-                    <p >Sãp Paulo - SP</p>
-                </div>
-    
+            
+                <p>Rua das Papoulas 59, Vila Bela</p>
 
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3655.9017483948396!2d-46.571872685382566!3d-23.607856369195265!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5cf3e77a6559%3A0xa8c44e7d9e5bdb14!2sR.%20Reg.%20de%20Ara%C3%BAjo%20Lima%2C%20115-11%20-%20Funda%C3%A7%C3%A3o%2C%20S%C3%A3o%20Caetano%20do%20Sul%20-%20SP%2C%2009520-230!5e0!3m2!1spt-BR!2sbr!4v1634822215756!5m2!1spt-BR!2sbr" 
-    width="400" 
-    height="250" 
-    style="border:0;" 
-    allowfullscreen=""
-     loading="lazy" onmousemove="zoom()" onmouseout="normal()" id='mapa'>
-    </iframe>
-            </div>
-    
-       
+                <p>Sãp Paulo - SP</p>
+            
+
+
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3655.9017483948396!2d-46.571872685382566!3d-23.607856369195265!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5cf3e77a6559%3A0xa8c44e7d9e5bdb14!2sR.%20Reg.%20de%20Ara%C3%BAjo%20Lima%2C%20115-11%20-%20Funda%C3%A7%C3%A3o%2C%20S%C3%A3o%20Caetano%20do%20Sul%20-%20SP%2C%2009520-230!5e0!3m2!1spt-BR!2sbr!4v1634822215756!5m2!1spt-BR!2sbr"
+                width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy" onmousemove="mapaZoom()"
+                onmouseout="mapaNormal()" id='mapa'>
+            </iframe>
+        </div>
+
+
     </div>
-   
-<script src="script.js"></script>
+
+    <script src="script.js"></script>
 
 </body>
+
 </html>
