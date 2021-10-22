@@ -9,7 +9,7 @@
 
 body{
 
-    background-color: rgb(0, 5, 0);
+    background-color:#000000;
 }
 
 
@@ -19,7 +19,7 @@ body{
     justify-content: center;
     flex-direction: row;
     font-size: 50px;
-    color: #159957;
+    color: #fca311;
     font-family: 'Varela Round', sans-serif;
 
 }
@@ -40,10 +40,11 @@ body{
   height: 70px;
   border: double 5px transparent;
   border-radius: 20px;
-  background-image: linear-gradient(rgb(0, 5, 0), rgb(0, 5, 0)),         /*here must be*/
-                    linear-gradient(to right, #159957, #155799);    /*both gradients*/
+  background-image: linear-gradient(rgb(0, 0, 14), rgb(0, 0, 14)),         /*here must be*/
+                    linear-gradient(to right, #fdca40, #FDA177);    /*both gradients*/
   background-origin: border-box;
   background-clip: content-box, border-box;
+  
   
     
     
@@ -61,7 +62,7 @@ body{
     display: flex;
     flex-flow: row;
     justify-content: center;
-    background: linear-gradient( #159957, #155799);
+    background: linear-gradient(#fdca40, #fdca40);
     background-color: rgb(11, 110, 79);
     justify-content: center;
     border-radius: 10px;
@@ -86,7 +87,7 @@ body{
 #menu li a{
 
     text-decoration: none;
-    color: #159957;
+    color: #faa613;
     font-size: 20px;
 }
 
@@ -104,10 +105,68 @@ body{
 
 }
 
-/* Estilos para a pagina Contato.html */
+
 
 .br-50{
      
     border-radius: 10px;
 }
 
+.footer{
+    display: flex;
+    justify-content: center;
+    color:#faa613 ;
+}
+
+.social{
+
+display: flex;
+justify-content: center;
+flex-direction: row;
+height: 50px;
+}
+
+.p30{
+
+    padding: 20px;
+
+}
+
+/* Estilos para a pagina Contato.html */
+
+.textCon{
+
+    text-align: center;
+    text-align: center;
+
+}
+.container{
+
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(  #fdca40, #fdca40);
+    background-color: (#fdca40);
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: 'Varela Round', sans-serif;
+    text-indent: 50px;
+    margin: 10px;
+    padding: 20px;
+    
+}
+    .ml-50{
+
+    margin-left: 50px;
+}
+
+    .textesquerda{
+
+    text-align: left;
+}
+
+    .marg{
+
+
+}
